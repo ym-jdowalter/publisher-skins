@@ -1,0 +1,65 @@
+/* Fonts */
+
+*,
+:after,
+:before {
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* */
+
+/* Banner */
+
+.format {
+  background: transparent;
+}
+
+.ad {
+  background-color: #fff;
+  border: 1px solid #cedfef;
+  box-shadow: none;
+}
+
+.description {
+  color: #222;
+  font-weight: 400;
+}
+
+.title {
+  color: #036;
+  font-weight: 700;
+}
+
+.btn {
+  box-shadow: none;
+  border-radius: 4px;
+  border: none;
+  background: #1b4e81;
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+/* */
+
+/* Advertising Callout */
+
+.advertising-callout:after {
+  content: 'advertisement';
+  position: absolute;
+  right: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #666;
+  text-transform: capitalize;
+}
+
+/* */
+
+/* Ad Choices Icon */
+
+.ym-ad-choices {
+  background: transparent;
+}
+
+/* */
