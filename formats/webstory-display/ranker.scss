@@ -1,0 +1,47 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('https://fonts.gstatic.com/s/robotocondensed/v18/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCQYbw.woff2') format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2') format('woff2');
+  font-weight: normal;
+}
+
+*,
+:after,
+:before {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* */
+
+/* Banner */
+
+.format {
+  background: transparent;
+}
+
+.ad {
+  border-radius: 8px;
+}
+
+.description {
+  font-weight: normal;
+}
+
+.title {
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.cta-text {
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* */

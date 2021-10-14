@@ -1,0 +1,45 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('https://styleguide.brainly.com/fonts/ProximaNova-Bold-f5af51ecc2.woff2') format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('https://styleguide.brainly.com/fonts/ProximaNova-Regular-531916d292.woff2') format('woff2');
+  font-weight: normal;
+}
+
+*,
+:after,
+:before {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* */
+
+/* Banner */
+
+.format {
+  background: transparent;
+}
+
+.ad {
+  border-radius: 12px;
+}
+
+.description {
+  font-weight: normal;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.cta-text {
+  font-weight: bold;
+}
+
+/* */

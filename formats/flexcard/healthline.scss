@@ -1,0 +1,77 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('https://assets.healthline.com/fonts/proxima/v1/32A982_1_0.woff2') format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('https://assets.healthline.com/fonts/proxima/v1/32A982_7_0.woff2') format('woff2');
+  font-weight: normal;
+}
+
+*,
+:after,
+:before {
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+/* */
+
+/* Banner */
+
+.format {
+  background: transparent;
+}
+
+.ad {
+  background-color: #fff;
+  border: 1px solid #f0efef;
+  box-shadow: none;
+}
+
+.description {
+  color: #231f20;
+  font-weight: normal;
+}
+
+.title {
+  color: #231f20;
+  font-weight: bold;
+}
+
+.btn {
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+  background: #e0218e;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* */
+
+/* Advertising Callout */
+
+.advertising-callout:after {
+  content: 'advertisement';
+  position: absolute;
+  right: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #918f8f;
+  text-transform: capitalize;
+}
+
+/* */
+
+/* Ad Choices Icon */
+
+.ym-ad-choices {
+  background: transparent;
+}
+
+/* */

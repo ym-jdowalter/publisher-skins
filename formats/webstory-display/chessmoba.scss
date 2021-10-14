@@ -1,0 +1,45 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Lato';
+  src: url('https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2') format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2') format('woff2');
+  font-weight: normal;
+}
+
+*,
+:after,
+:before {
+  font-family: 'Lato', sans-serif;
+}
+
+/* */
+
+/* Banner */
+
+.format {
+  background: transparent;
+}
+
+.ad {
+  border-radius: 0px;
+}
+
+.description {
+  font-weight: normal;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.cta-text {
+  font-weight: bold;
+}
+
+/* */

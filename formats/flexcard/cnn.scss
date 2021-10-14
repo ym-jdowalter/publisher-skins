@@ -1,0 +1,83 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'CNN Condensed';
+  src: url('https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-condensedbold.woff2') format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'CNN';
+  src: url('https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-medium.woff2') format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'CNN';
+  src: url('https://www.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-light.woff2') format('woff2');
+  font-weight: normal;
+}
+
+*,
+:after,
+:before {
+  font-family: 'CNN', sans-serif;
+}
+
+/* */
+
+/* Banner */
+
+.format {
+  background: transparent;
+}
+
+.ad {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-shadow: none;
+}
+
+.description {
+  color: #262626;
+  font-weight: normal;
+}
+
+.title {
+  color: #0c0c0c;
+  font-weight: bold;
+}
+
+.btn {
+  box-shadow: none;
+  border-radius: 3px;
+  border: none;
+  background: #0c0c0c;
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* */
+
+/* Advertising Callout */
+
+.advertising-callout:after {
+  content: 'advertisement';
+  position: absolute;
+  right: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #737373;
+  text-transform: capitalize;
+}
+
+/* */
+
+/* Ad Choices Icon */
+
+.ym-ad-choices {
+  background: transparent;
+}
+
+/* */
