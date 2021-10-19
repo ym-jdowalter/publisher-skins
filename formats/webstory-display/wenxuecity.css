@@ -1,21 +1,9 @@
 /* Fonts */
 
-@font-face {
-  font-family: 'ProximaNova';
-  src: url('https://styleguide.brainly.com/fonts/ProximaNova-Bold-f5af51ecc2.woff2') format('woff2');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'ProximaNova';
-  src: url('https://styleguide.brainly.com/fonts/ProximaNova-Regular-531916d292.woff2') format('woff2');
-  font-weight: normal;
-}
-
 *,
 :after,
 :before {
-  font-family: 'ProximaNova', sans-serif;
+  font-family: 'Microsoft YaHei', Tahoma, Verdana, STHeiTi, simsun, sans-serif;
 }
 
 /* */
@@ -28,15 +16,15 @@
 }
 
 .ad {
-  border-radius: 12px;
-  background: #d9f0ff;
+  border-radius: 0;
+  background: #e6e4e4;
   border: none;
 }
 
 .webstory-header .title {
-  font-family: inherit;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
-  color: black;
+  color: #0d00ff;
 }
 
 .description {
@@ -57,8 +45,8 @@
 /* CTA */
 
 .cta-text {
-  color: black;
-  font-family: inherit;
+  color: #0d00ff;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
 }
 
@@ -67,7 +55,7 @@
 }
 
 .external-link-icon_circle {
-  fill: #4fb3f6;
+  fill: #44753d;
 }
 
 .external-link-icon_arrow {

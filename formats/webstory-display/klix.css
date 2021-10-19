@@ -1,21 +1,15 @@
 /* Fonts */
 
 @font-face {
-  font-family: 'ProximaNova';
-  src: url('https://styleguide.brainly.com/fonts/ProximaNova-Bold-f5af51ecc2.woff2') format('woff2');
+  font-family: 'ClanPro';
+  src: url('https://static.klix.ba/fonts/ClanPro-Medium.otf') format('woff2');
   font-weight: bold;
-}
-
-@font-face {
-  font-family: 'ProximaNova';
-  src: url('https://styleguide.brainly.com/fonts/ProximaNova-Regular-531916d292.woff2') format('woff2');
-  font-weight: normal;
 }
 
 *,
 :after,
 :before {
-  font-family: 'ProximaNova', sans-serif;
+  font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* */
@@ -28,28 +22,28 @@
 }
 
 .ad {
-  border-radius: 12px;
-  background: #d9f0ff;
+  border-radius: 8px;
+  background: #f1f2f5;
   border: none;
 }
 
 .webstory-header .title {
-  font-family: inherit;
+  font-family: 'ClanPro', sans-serif;
   font-weight: bold;
-  color: black;
+  color: #111827;
 }
 
 .description {
   font-family: inherit;
   font-weight: normal;
-  color: black;
+  color: #111827;
   line-height: 18px;
 }
 
 .sponsored-by {
   font-family: inherit;
   font-weight: normal;
-  color: black;
+  color: #808080;
 }
 
 /* */
@@ -57,8 +51,8 @@
 /* CTA */
 
 .cta-text {
-  color: black;
-  font-family: inherit;
+  color: #111827;
+  font-family: 'ClanPro', sans-serif;
   font-weight: bold;
 }
 
@@ -67,7 +61,7 @@
 }
 
 .external-link-icon_circle {
-  fill: #4fb3f6;
+  fill: #086cb8;
 }
 
 .external-link-icon_arrow {

@@ -1,21 +1,21 @@
 /* Fonts */
 
 @font-face {
-  font-family: 'ProximaNova';
-  src: url('https://styleguide.brainly.com/fonts/ProximaNova-Bold-f5af51ecc2.woff2') format('woff2');
+  font-family: 'Oswald';
+  src: url('https://fonts.gstatic.com/s/oswald/v11/bH7276GfdCjMjApa_dkG6aCWcynf_cDxXwCLxiixG1c.ttf') format('woff2');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'ProximaNova';
-  src: url('https://styleguide.brainly.com/fonts/ProximaNova-Regular-531916d292.woff2') format('woff2');
+  font-family: 'Roboto';
+  src: url('https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2') format('woff2');
   font-weight: normal;
 }
 
 *,
 :after,
 :before {
-  font-family: 'ProximaNova', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* */
@@ -28,13 +28,13 @@
 }
 
 .ad {
-  border-radius: 12px;
-  background: #d9f0ff;
-  border: none;
+  border-radius: 0;
+  background: #f2f2f2;
+  border: 1px solid #d2d3d4;
 }
 
 .webstory-header .title {
-  font-family: inherit;
+  font-family: 'Oswald', sans-serif;
   font-weight: bold;
   color: black;
 }
@@ -58,7 +58,7 @@
 
 .cta-text {
   color: black;
-  font-family: inherit;
+  font-family: 'Oswald', sans-serif;
   font-weight: bold;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .external-link-icon_circle {
-  fill: #4fb3f6;
+  fill: #0253a8;
 }
 
 .external-link-icon_arrow {

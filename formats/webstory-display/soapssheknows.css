@@ -1,21 +1,21 @@
 /* Fonts */
 
 @font-face {
-  font-family: 'ProximaNova';
-  src: url('https://styleguide.brainly.com/fonts/ProximaNova-Bold-f5af51ecc2.woff2') format('woff2');
+  font-family: 'Lato';
+  src: url('https://soaps.sheknows.com/wp-content/themes/vip/pmc-soaps-2018/assets/build/fonts/lato/Lato-Bold.woff2') format('woff2');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'ProximaNova';
-  src: url('https://styleguide.brainly.com/fonts/ProximaNova-Regular-531916d292.woff2') format('woff2');
+  font-family: 'Lato';
+  src: url('https://soaps.sheknows.com/wp-content/themes/vip/pmc-soaps-2018/assets/build/fonts/lato/Lato-Regular.woff2') format('woff2');
   font-weight: normal;
 }
 
 *,
 :after,
 :before {
-  font-family: 'ProximaNova', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 /* */
@@ -28,15 +28,15 @@
 }
 
 .ad {
-  border-radius: 12px;
-  background: #d9f0ff;
-  border: none;
+  border-radius: 0;
+  background: white;
+  border: 1px solid #e3e3e3;
 }
 
 .webstory-header .title {
   font-family: inherit;
   font-weight: bold;
-  color: black;
+  color: #164d4d;
 }
 
 .description {
@@ -49,7 +49,7 @@
 .sponsored-by {
   font-family: inherit;
   font-weight: normal;
-  color: black;
+  color: #a8a8a8;
 }
 
 /* */
@@ -57,7 +57,7 @@
 /* CTA */
 
 .cta-text {
-  color: black;
+  color: #164d4d;
   font-family: inherit;
   font-weight: bold;
 }
@@ -67,7 +67,7 @@
 }
 
 .external-link-icon_circle {
-  fill: #4fb3f6;
+  fill: #164d4d;
 }
 
 .external-link-icon_arrow {

@@ -1,21 +1,9 @@
 /* Fonts */
 
-@font-face {
-  font-family: 'Lato';
-  src: url('https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2') format('woff2');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'Lato';
-  src: url('https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2') format('woff2');
-  font-weight: normal;
-}
-
 *,
 :after,
 :before {
-  font-family: 'Lato', sans-serif;
+  font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* */
@@ -30,27 +18,26 @@
 .ad {
   border-radius: 0;
   background: white;
-  border: solid 1px #e7eaec;
-  border-top: solid 2px #e7eaec;
+  border: 1px solid #182882;
 }
 
 .webstory-header .title {
   font-family: inherit;
   font-weight: bold;
-  color: #212121;
+  color: #212529;
 }
 
 .description {
   font-family: inherit;
   font-weight: normal;
-  color: #212121;
+  color: #212529;
   line-height: 18px;
 }
 
 .sponsored-by {
   font-family: inherit;
   font-weight: normal;
-  color: #212121;
+  color: #666;
 }
 
 /* */
@@ -58,17 +45,17 @@
 /* CTA */
 
 .cta-text {
-  color: #212121;
+  color: #212529;
   font-family: inherit;
   font-weight: bold;
 }
 
 .btn-wrapper {
-  border-radius: 50%;
+  border-radius: 0;
 }
 
 .external-link-icon_circle {
-  fill: #1ab394;
+  fill: #182882;
 }
 
 .external-link-icon_arrow {

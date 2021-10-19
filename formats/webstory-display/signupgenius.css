@@ -1,21 +1,21 @@
 /* Fonts */
 
 @font-face {
-  font-family: 'ProximaNova';
-  src: url('https://styleguide.brainly.com/fonts/ProximaNova-Bold-f5af51ecc2.woff2') format('woff2');
+  font-family: 'Lato';
+  src: url('https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh50XSwiPGQ3q5d0.woff2') format('woff2');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'ProximaNova';
-  src: url('https://styleguide.brainly.com/fonts/ProximaNova-Regular-531916d292.woff2') format('woff2');
+  font-family: 'Lato';
+  src: url('https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjx4wXiWtFCc.woff2') format('woff2');
   font-weight: normal;
 }
 
 *,
 :after,
 :before {
-  font-family: 'ProximaNova', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 /* */
@@ -28,28 +28,28 @@
 }
 
 .ad {
-  border-radius: 12px;
-  background: #d9f0ff;
-  border: none;
+  border-radius: 8px;
+  background: #fefde5;
+  border: 1px solid #eeeeee;
 }
 
 .webstory-header .title {
   font-family: inherit;
   font-weight: bold;
-  color: black;
+  color: #222;
 }
 
 .description {
   font-family: inherit;
   font-weight: normal;
-  color: black;
+  color: #222;
   line-height: 18px;
 }
 
 .sponsored-by {
   font-family: inherit;
   font-weight: normal;
-  color: black;
+  color: #777;
 }
 
 /* */
@@ -57,7 +57,7 @@
 /* CTA */
 
 .cta-text {
-  color: black;
+  color: #222;
   font-family: inherit;
   font-weight: bold;
 }
@@ -67,7 +67,7 @@
 }
 
 .external-link-icon_circle {
-  fill: #4fb3f6;
+  fill: #f68b1c;
 }
 
 .external-link-icon_arrow {
