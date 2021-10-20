@@ -1,21 +1,21 @@
 /* Fonts */
 
 @font-face {
-  font-family: 'Proxima Nova';
-  src: url('https://assets.healthline.com/fonts/proxima/v1/32A982_1_0.woff2') format('woff2');
+  font-family: 'Muli';
+  src: url('https://fonts.gstatic.com/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_dJE3gnD_vx3rCs.woff2') format('woff2');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Proxima Nova';
-  src: url('https://assets.healthline.com/fonts/proxima/v1/32A982_7_0.woff2') format('woff2');
+  font-family: 'Montserrat';
+  src: url('https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTLGLQjUwkQ.woff2') format('woff2');
   font-weight: normal;
 }
 
 *,
 :after,
 :before {
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* */
@@ -28,31 +28,35 @@
 
 .ad {
   background-color: #fff;
-  border: 1px solid #f0efef;
+  border: 1px solid #ebebeb;
   box-shadow: none;
 }
 
 .description {
-  color: #231f20;
+  color: #666;
   font-weight: normal;
   font-family: inherit;
 }
 
 .title {
-  color: #231f20;
+  color: #2c3044;
   font-weight: bold;
-  font-family: inherit;
+  font-family: 'Muli', sans-serif;
 }
 
 .btn {
   box-shadow: none;
-  border-radius: 0;
+  border-radius: 4px;
   border: none;
-  background: #e0218e;
+  background: #037dba;
   color: #fff;
   font-weight: bold;
-  font-family: inherit;
+  font-family: 'Muli', sans-serif;
   text-transform: uppercase;
+}
+
+.btn-text {
+  font-family: inherit;
 }
 
 /* */
@@ -66,7 +70,7 @@
   font-size: 12px;
   font-weight: 400;
   font-family: inherit;
-  color: #918f8f;
+  color: #707070;
   text-transform: capitalize;
 }
 

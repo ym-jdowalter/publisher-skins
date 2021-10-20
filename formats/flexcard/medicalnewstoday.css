@@ -27,8 +27,8 @@
 }
 
 .ad {
-  background-color: #fff;
-  border: 1px solid #f0efef;
+  background-color: #f7f7f7;
+  border: 1px solid #cccccc;
   box-shadow: none;
 }
 
@@ -48,7 +48,7 @@
   box-shadow: none;
   border-radius: 0;
   border: none;
-  background: #e0218e;
+  background: #489fcd;
   color: #fff;
   font-weight: bold;
   font-family: inherit;

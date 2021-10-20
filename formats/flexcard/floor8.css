@@ -1,21 +1,21 @@
 /* Fonts */
 
 @font-face {
-  font-family: 'Proxima Nova';
-  src: url('https://assets.healthline.com/fonts/proxima/v1/32A982_1_0.woff2') format('woff2');
+  font-family: 'itc-avant-garde-gothic-pro';
+  src: url('https://use.typekit.net/af/848d14/00000000000000003b9b3de0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3') format('woff2');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Proxima Nova';
-  src: url('https://assets.healthline.com/fonts/proxima/v1/32A982_7_0.woff2') format('woff2');
+  font-family: 'europa';
+  src: url('https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3') format('woff2');
   font-weight: normal;
 }
 
 *,
 :after,
 :before {
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: 'europa', sans-serif;
 }
 
 /* */
@@ -28,7 +28,7 @@
 
 .ad {
   background-color: #fff;
-  border: 1px solid #f0efef;
+  border: 1px solid #a1a1a1;
   box-shadow: none;
 }
 
@@ -39,20 +39,24 @@
 }
 
 .title {
-  color: #231f20;
+  color: #000000;
   font-weight: bold;
-  font-family: inherit;
+  font-family: 'itc-avant-garde-gothic-pro', sans-serif;
 }
 
 .btn {
   box-shadow: none;
   border-radius: 0;
   border: none;
-  background: #e0218e;
+  background: #75cedc;
   color: #fff;
   font-weight: bold;
-  font-family: inherit;
+  font-family: 'itc-avant-garde-gothic-pro', sans-serif;
   text-transform: uppercase;
+}
+
+.btn-text {
+  font-family: inherit;
 }
 
 /* */
@@ -66,7 +70,7 @@
   font-size: 12px;
   font-weight: 400;
   font-family: inherit;
-  color: #918f8f;
+  color: #a1a1a1;
   text-transform: capitalize;
 }
 
